@@ -13,6 +13,7 @@ SWEventsPrototypeApp is a simple protoype application.SWEventsPrototypeApp or e-
 - Model - View - Controller 
 - jSON Parsing
 - Aysnc Images
+- Animations.....
 - Much More
 
 
