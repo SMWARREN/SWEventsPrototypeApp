@@ -1,4 +1,4 @@
-# SWEventsPrototypeApp
+# SWEventsPrototypeApp <img src="http://i.imgur.com/tP7IwZg.png" width="40px" height="40px">
 
 ![SWEventsPrototypeApp](http://i.imgur.com/dTQoP7H.png)
 
