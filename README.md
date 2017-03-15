@@ -2,6 +2,10 @@
 
 ![SWEventsPrototypeApp](http://i.imgur.com/dTQoP7H.png)
 
+## Demo
+[Preview SWEventsPrototypeApp through the Browser](https://appetize.io/app/eqr5wyu7ygx975prk1c6muum5r?device=iphone7plus&scale=50&orientation=portrait&osVersion=10.2)
+
+
 ## Description
 SWEventsPrototypeApp is a simple protoype application.SWEventsPrototypeApp or e-Where can be used as boilerplate to create iOS Applications. The goal of developing and creating this application was to learn as many new Swift 3 features as possible; as well as learning how to programatically create views without the storyboard.
 
