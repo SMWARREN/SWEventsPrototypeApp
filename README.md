@@ -5,6 +5,12 @@
 ## Description
 SWEventsPrototypeApp is a simple protoype application.SWEventsPrototypeApp or e-Where can be used as boilerplate to create iOS Applications. The goal of developing and creating this application was to learn as many new Swift 3 features as possible; as well as learning how to programatically create views without the storyboard.
 
+- SwiftLint: A tool to enforce Swift style and conventions, loosely based on GitHub's Swift Style Guide.
+- Model - View - Controller 
+- jSON Parsing
+- Aysnc Images
+- Much More
+
 
 ## Screenshots
 <img src="http://i.imgur.com/nBVKTWd.jpg" widht="500px" height="500px"><img src="http://i.imgur.com/C70XfdK.jpg" widht="500px" height="500px"><img src="http://i.imgur.com/gROcznO.jpg" widht="500px" height="500px"><img src="http://i.imgur.com/Z8n8KQQ.png" widht="500px" height="500px"><img src="http://i.imgur.com/gRxcdyG.png)" widht="500px" height="500px">
