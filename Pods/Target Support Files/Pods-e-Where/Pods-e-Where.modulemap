@@ -1,0 +1,6 @@
+framework module Pods_e_Where {
+  umbrella header "Pods-e-Where-umbrella.h"
+
+  export *
+  module * { export * }
+}

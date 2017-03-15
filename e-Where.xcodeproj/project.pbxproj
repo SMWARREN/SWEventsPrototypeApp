@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91033FC31E62FBF800E34F01 /* SWHomeControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91033FC21E62FBF800E34F01 /* SWHomeControllerExtensions.swift */; };
+		916C40781E6BEDAC009ACA14 /* SWHomeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916C40771E6BEDAC009ACA14 /* SWHomeDetailView.swift */; };
+		919B09FD1E59BAFF0084643B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919B09FC1E59BAFF0084643B /* AppDelegate.swift */; };
+		919B09FF1E59BAFF0084643B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919B09FE1E59BAFF0084643B /* ViewController.swift */; };
+		919B0A021E59BAFF0084643B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 919B0A001E59BAFF0084643B /* Main.storyboard */; };
+		919B0A041E59BAFF0084643B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 919B0A031E59BAFF0084643B /* Assets.xcassets */; };
+		919B0A071E59BAFF0084643B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 919B0A051E59BAFF0084643B /* LaunchScreen.storyboard */; };
+		919B0A111E59BD570084643B /* SWTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919B0A0F1E59BD570084643B /* SWTabBar.swift */; };
+		919B0A121E59BD570084643B /* SWTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919B0A101E59BD570084643B /* SWTabBarController.swift */; };
+		919EA4A11E59C8BE00229C45 /* SWSettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919EA4A01E59C8BE00229C45 /* SWSettingController.swift */; };
+		919EA4A31E59C95F00229C45 /* SWSettingsDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919EA4A21E59C95F00229C45 /* SWSettingsDatasource.swift */; };
+		919EA4A51E59C99000229C45 /* SWSettingCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919EA4A41E59C99000229C45 /* SWSettingCells.swift */; };
+		919EA4A71E59CE0300229C45 /* SWMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919EA4A61E59CE0300229C45 /* SWMenuItem.swift */; };
+		919EA4AB1E59D62D00229C45 /* SWInboxController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919EA4AA1E59D62D00229C45 /* SWInboxController.swift */; };
+		919EA4AD1E59D65800229C45 /* SWInboxDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919EA4AC1E59D65800229C45 /* SWInboxDataSource.swift */; };
+		919EA4AF1E59D67C00229C45 /* SWInboxCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919EA4AE1E59D67C00229C45 /* SWInboxCells.swift */; };
+		919EA4B11E59D6F800229C45 /* SWInboxModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919EA4B01E59D6F800229C45 /* SWInboxModel.swift */; };
+		919EA4B31E59E02D00229C45 /* SWDiscoveryCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919EA4B21E59E02D00229C45 /* SWDiscoveryCells.swift */; };
+		919EA4B51E59E03400229C45 /* SWDiscoveryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919EA4B41E59E03400229C45 /* SWDiscoveryController.swift */; };
+		919EA4B71E59E05900229C45 /* SWDiscoverDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919EA4B61E59E05900229C45 /* SWDiscoverDatasource.swift */; };
+		919EA4B91E59E5A500229C45 /* SWHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919EA4B81E59E5A500229C45 /* SWHomeController.swift */; };
+		919EA4BB1E59E5AE00229C45 /* SWHomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919EA4BA1E59E5AE00229C45 /* SWHomeModel.swift */; };
+		919EA4BD1E59E5B500229C45 /* SWApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919EA4BC1E59E5B500229C45 /* SWApiService.swift */; };
+		919EA4BF1E59E5BE00229C45 /* SWHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919EA4BE1E59E5BE00229C45 /* SWHomeView.swift */; };
+		919EA4C11E59EDBF00229C45 /* SWCachedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919EA4C01E59EDBF00229C45 /* SWCachedImage.swift */; };
+		919EA4C31E59EE5E00229C45 /* SWHomeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919EA4C21E59EE5E00229C45 /* SWHomeDetail.swift */; };
+		91FEA56F1E5A082B0088203C /* SWEventsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEA56E1E5A082B0088203C /* SWEventsController.swift */; };
+		91FEA5711E5A08CD0088203C /* EventsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEA5701E5A08CD0088203C /* EventsDataSource.swift */; };
+		91FEA5731E5A098E0088203C /* SWEventsCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEA5721E5A098E0088203C /* SWEventsCells.swift */; };
+		DB605B1EF1DA58F9D341CED4 /* Pods_e_Where.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4648EEC225F41E61C4A8ECA /* Pods_e_Where.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6991C17ADAFD60738E442F0C /* Pods-e-Where.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-e-Where.release.xcconfig"; path = "Pods/Target Support Files/Pods-e-Where/Pods-e-Where.release.xcconfig"; sourceTree = "<group>"; };
+		91033FC21E62FBF800E34F01 /* SWHomeControllerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWHomeControllerExtensions.swift; sourceTree = "<group>"; };
+		916C40771E6BEDAC009ACA14 /* SWHomeDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWHomeDetailView.swift; sourceTree = "<group>"; };
+		919B09F91E59BAFF0084643B /* e-Where.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "e-Where.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		919B09FC1E59BAFF0084643B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		919B09FE1E59BAFF0084643B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../View/ViewController.swift; sourceTree = "<group>"; };
+		919B0A011E59BAFF0084643B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		919B0A031E59BAFF0084643B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		919B0A061E59BAFF0084643B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		919B0A081E59BAFF0084643B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		919B0A0F1E59BD570084643B /* SWTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWTabBar.swift; sourceTree = "<group>"; };
+		919B0A101E59BD570084643B /* SWTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWTabBarController.swift; sourceTree = "<group>"; };
+		919EA4A01E59C8BE00229C45 /* SWSettingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWSettingController.swift; sourceTree = "<group>"; };
+		919EA4A21E59C95F00229C45 /* SWSettingsDatasource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWSettingsDatasource.swift; sourceTree = "<group>"; };
+		919EA4A41E59C99000229C45 /* SWSettingCells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWSettingCells.swift; sourceTree = "<group>"; };
+		919EA4A61E59CE0300229C45 /* SWMenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWMenuItem.swift; sourceTree = "<group>"; };
+		919EA4AA1E59D62D00229C45 /* SWInboxController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWInboxController.swift; sourceTree = "<group>"; };
+		919EA4AC1E59D65800229C45 /* SWInboxDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWInboxDataSource.swift; sourceTree = "<group>"; };
+		919EA4AE1E59D67C00229C45 /* SWInboxCells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWInboxCells.swift; sourceTree = "<group>"; };
+		919EA4B01E59D6F800229C45 /* SWInboxModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWInboxModel.swift; sourceTree = "<group>"; };
+		919EA4B21E59E02D00229C45 /* SWDiscoveryCells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWDiscoveryCells.swift; sourceTree = "<group>"; };
+		919EA4B41E59E03400229C45 /* SWDiscoveryController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWDiscoveryController.swift; sourceTree = "<group>"; };
+		919EA4B61E59E05900229C45 /* SWDiscoverDatasource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWDiscoverDatasource.swift; sourceTree = "<group>"; };
+		919EA4B81E59E5A500229C45 /* SWHomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWHomeController.swift; sourceTree = "<group>"; };
+		919EA4BA1E59E5AE00229C45 /* SWHomeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWHomeModel.swift; sourceTree = "<group>"; };
+		919EA4BC1E59E5B500229C45 /* SWApiService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWApiService.swift; sourceTree = "<group>"; };
+		919EA4BE1E59E5BE00229C45 /* SWHomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWHomeView.swift; sourceTree = "<group>"; };
+		919EA4C01E59EDBF00229C45 /* SWCachedImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWCachedImage.swift; sourceTree = "<group>"; };
+		919EA4C21E59EE5E00229C45 /* SWHomeDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWHomeDetail.swift; sourceTree = "<group>"; };
+		91FEA56E1E5A082B0088203C /* SWEventsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWEventsController.swift; sourceTree = "<group>"; };
+		91FEA5701E5A08CD0088203C /* EventsDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsDataSource.swift; sourceTree = "<group>"; };
+		91FEA5721E5A098E0088203C /* SWEventsCells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWEventsCells.swift; sourceTree = "<group>"; };
+		9772A58F41B7200BE36550FB /* Pods-e-Where.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-e-Where.debug.xcconfig"; path = "Pods/Target Support Files/Pods-e-Where/Pods-e-Where.debug.xcconfig"; sourceTree = "<group>"; };
+		F4648EEC225F41E61C4A8ECA /* Pods_e_Where.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_e_Where.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		919B09F61E59BAFE0084643B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB605B1EF1DA58F9D341CED4 /* Pods_e_Where.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0730A5BB80DABF4856EFDC8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4648EEC225F41E61C4A8ECA /* Pods_e_Where.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		919B09F01E59BAFE0084643B = {
+			isa = PBXGroup;
+			children = (
+				919B09FB1E59BAFF0084643B /* e-Where */,
+				919B09FA1E59BAFF0084643B /* Products */,
+				F000C8116FE7B7127181FD20 /* Pods */,
+				0730A5BB80DABF4856EFDC8A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		919B09FA1E59BAFF0084643B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				919B09F91E59BAFF0084643B /* e-Where.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		919B09FB1E59BAFF0084643B /* e-Where */ = {
+			isa = PBXGroup;
+			children = (
+				919B0A161E59BD950084643B /* Controller */,
+				919B0A171E59BD950084643B /* Model */,
+				919B0A181E59BD950084643B /* View */,
+				919B09FC1E59BAFF0084643B /* AppDelegate.swift */,
+				919B0A001E59BAFF0084643B /* Main.storyboard */,
+				919B0A031E59BAFF0084643B /* Assets.xcassets */,
+				919B0A051E59BAFF0084643B /* LaunchScreen.storyboard */,
+				919B0A081E59BAFF0084643B /* Info.plist */,
+			);
+			path = "e-Where";
+			sourceTree = "<group>";
+		};
+		919B0A161E59BD950084643B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				919B09FE1E59BAFF0084643B /* ViewController.swift */,
+				91FEA56E1E5A082B0088203C /* SWEventsController.swift */,
+				919EA4AA1E59D62D00229C45 /* SWInboxController.swift */,
+				919EA4B81E59E5A500229C45 /* SWHomeController.swift */,
+				91033FC21E62FBF800E34F01 /* SWHomeControllerExtensions.swift */,
+				919EA4C21E59EE5E00229C45 /* SWHomeDetail.swift */,
+				919EA4A01E59C8BE00229C45 /* SWSettingController.swift */,
+				919EA4B41E59E03400229C45 /* SWDiscoveryController.swift */,
+				919B0A101E59BD570084643B /* SWTabBarController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		919B0A171E59BD950084643B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				919EA4A21E59C95F00229C45 /* SWSettingsDatasource.swift */,
+				919EA4AC1E59D65800229C45 /* SWInboxDataSource.swift */,
+				91FEA5701E5A08CD0088203C /* EventsDataSource.swift */,
+				919EA4C01E59EDBF00229C45 /* SWCachedImage.swift */,
+				919EA4B61E59E05900229C45 /* SWDiscoverDatasource.swift */,
+				919EA4BA1E59E5AE00229C45 /* SWHomeModel.swift */,
+				919EA4BC1E59E5B500229C45 /* SWApiService.swift */,
+				919B0A0F1E59BD570084643B /* SWTabBar.swift */,
+				919EA4A61E59CE0300229C45 /* SWMenuItem.swift */,
+				919EA4B01E59D6F800229C45 /* SWInboxModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		919B0A181E59BD950084643B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				919EA4A41E59C99000229C45 /* SWSettingCells.swift */,
+				916C40771E6BEDAC009ACA14 /* SWHomeDetailView.swift */,
+				91FEA5721E5A098E0088203C /* SWEventsCells.swift */,
+				919EA4BE1E59E5BE00229C45 /* SWHomeView.swift */,
+				919EA4B21E59E02D00229C45 /* SWDiscoveryCells.swift */,
+				919EA4AE1E59D67C00229C45 /* SWInboxCells.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F000C8116FE7B7127181FD20 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9772A58F41B7200BE36550FB /* Pods-e-Where.debug.xcconfig */,
+				6991C17ADAFD60738E442F0C /* Pods-e-Where.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		919B09F81E59BAFE0084643B /* e-Where */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 919B0A0B1E59BAFF0084643B /* Build configuration list for PBXNativeTarget "e-Where" */;
+			buildPhases = (
+				6AC374372461B598F12CAAAD /* [CP] Check Pods Manifest.lock */,
+				919B09F51E59BAFE0084643B /* Sources */,
+				919B09F61E59BAFE0084643B /* Frameworks */,
+				919B09F71E59BAFE0084643B /* Resources */,
+				DEA72AC409A60DDA130DB98F /* [CP] Embed Pods Frameworks */,
+				F7222BB8903F38155DD60A51 /* [CP] Copy Pods Resources */,
+				919B0A0E1E59BBDB0084643B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "e-Where";
+			productName = "e-Where";
+			productReference = 919B09F91E59BAFF0084643B /* e-Where.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		919B09F11E59BAFE0084643B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Sean Warren";
+				TargetAttributes = {
+					919B09F81E59BAFE0084643B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = SAXTXFFJ77;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 919B09F41E59BAFE0084643B /* Build configuration list for PBXProject "e-Where" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 919B09F01E59BAFE0084643B;
+			productRefGroup = 919B09FA1E59BAFF0084643B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				919B09F81E59BAFE0084643B /* e-Where */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		919B09F71E59BAFE0084643B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				919B0A071E59BAFF0084643B /* LaunchScreen.storyboard in Resources */,
+				919B0A041E59BAFF0084643B /* Assets.xcassets in Resources */,
+				919B0A021E59BAFF0084643B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6AC374372461B598F12CAAAD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		919B0A0E1E59BBDB0084643B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+		DEA72AC409A60DDA130DB98F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-e-Where/Pods-e-Where-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7222BB8903F38155DD60A51 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-e-Where/Pods-e-Where-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		919B09F51E59BAFE0084643B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				916C40781E6BEDAC009ACA14 /* SWHomeDetailView.swift in Sources */,
+				91FEA5731E5A098E0088203C /* SWEventsCells.swift in Sources */,
+				919EA4BF1E59E5BE00229C45 /* SWHomeView.swift in Sources */,
+				919EA4B71E59E05900229C45 /* SWDiscoverDatasource.swift in Sources */,
+				919EA4B51E59E03400229C45 /* SWDiscoveryController.swift in Sources */,
+				919B09FF1E59BAFF0084643B /* ViewController.swift in Sources */,
+				919EA4A51E59C99000229C45 /* SWSettingCells.swift in Sources */,
+				919EA4BD1E59E5B500229C45 /* SWApiService.swift in Sources */,
+				91FEA56F1E5A082B0088203C /* SWEventsController.swift in Sources */,
+				919B0A121E59BD570084643B /* SWTabBarController.swift in Sources */,
+				919EA4C11E59EDBF00229C45 /* SWCachedImage.swift in Sources */,
+				919B09FD1E59BAFF0084643B /* AppDelegate.swift in Sources */,
+				919EA4A31E59C95F00229C45 /* SWSettingsDatasource.swift in Sources */,
+				919EA4BB1E59E5AE00229C45 /* SWHomeModel.swift in Sources */,
+				919EA4B31E59E02D00229C45 /* SWDiscoveryCells.swift in Sources */,
+				919EA4B91E59E5A500229C45 /* SWHomeController.swift in Sources */,
+				919EA4AF1E59D67C00229C45 /* SWInboxCells.swift in Sources */,
+				919EA4A71E59CE0300229C45 /* SWMenuItem.swift in Sources */,
+				919EA4A11E59C8BE00229C45 /* SWSettingController.swift in Sources */,
+				91033FC31E62FBF800E34F01 /* SWHomeControllerExtensions.swift in Sources */,
+				919EA4B11E59D6F800229C45 /* SWInboxModel.swift in Sources */,
+				919EA4AB1E59D62D00229C45 /* SWInboxController.swift in Sources */,
+				919EA4C31E59EE5E00229C45 /* SWHomeDetail.swift in Sources */,
+				919B0A111E59BD570084643B /* SWTabBar.swift in Sources */,
+				91FEA5711E5A08CD0088203C /* EventsDataSource.swift in Sources */,
+				919EA4AD1E59D65800229C45 /* SWInboxDataSource.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		919B0A001E59BAFF0084643B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				919B0A011E59BAFF0084643B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		919B0A051E59BAFF0084643B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				919B0A061E59BAFF0084643B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		919B0A091E59BAFF0084643B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		919B0A0A1E59BAFF0084643B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		919B0A0C1E59BAFF0084643B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9772A58F41B7200BE36550FB /* Pods-e-Where.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SAXTXFFJ77;
+				INFOPLIST_FILE = "e-Where/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SMWarren.e-Where";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		919B0A0D1E59BAFF0084643B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6991C17ADAFD60738E442F0C /* Pods-e-Where.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SAXTXFFJ77;
+				INFOPLIST_FILE = "e-Where/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SMWarren.e-Where";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		919B09F41E59BAFE0084643B /* Build configuration list for PBXProject "e-Where" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				919B0A091E59BAFF0084643B /* Debug */,
+				919B0A0A1E59BAFF0084643B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		919B0A0B1E59BAFF0084643B /* Build configuration list for PBXNativeTarget "e-Where" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				919B0A0C1E59BAFF0084643B /* Debug */,
+				919B0A0D1E59BAFF0084643B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 919B09F11E59BAFE0084643B /* Project object */;
+}
