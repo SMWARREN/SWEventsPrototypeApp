@@ -26,7 +26,7 @@ To run SWEventsPrototypeApp, clone the repo, and run `pod install` from the e-Wh
 
 ## Requirements
 
-This project requires Xcode 7+ running a target of iOS 10.0+ along with Cocoapods.
+This project requires Xcode 8+ running a target of iOS 10.0+ along with Cocoapods.
 
 ## ToDo
 
